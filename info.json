@@ -1,0 +1,28 @@
+{
+    "name": "loaders-modernized-5dim",
+    "version": "1.0.0",
+    "title": "Loaders Modernized: 5Dim's",
+    "description": "Add Modern Loaders to 5Dim's New Transport",
+    "author": "kryojenik",
+    "contact": "https://github.com/kryojenik/loaders-modernized",
+    "homepage": "https://github.com/kryojenik/loaders-modernized",
+    "source": "https://github.com/kryojenik/loaders-modernized",
+    "factorio_version": "2.0",
+    "dependencies": [
+        "base >= 2.0.60",
+        "flib >= 0.16.2",
+        "loaders-modernized >= 0.8.15",
+        "5dim_transport"
+        
+    ],
+    "package": {
+        "git_publish_branch": "main",
+        "ignore": [
+            "TODO.md",
+            "types.lua",
+            "screenshots/*"
+        ],
+        "sync_portal_details": false,
+        "no_git_push": true
+    }
+}
