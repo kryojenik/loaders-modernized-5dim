@@ -260,7 +260,7 @@ if startup_settings["mdrn-enable-stacking"].value == "stack-tier" then
 end
 
 -- Someone may want to keep the turbo loaders around -- Why?
-if startup_settings["mdrn-keep-turbo-loader"].value then
+if mods["space-age"] and startup_settings["mdrn-keep-turbo-loader"].value then
   for _, name in pairs{ "turbo-mdrn-loader", "turbo-mdrn-loader-split" } do
     local turbo_ldr = data.raw["loader-1x1"][name]
     if turbo_ldr then
